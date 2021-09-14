@@ -9,7 +9,7 @@ cd library-framework
 npm install
 ```
 
-命令行
+### 命令行
 ```
 npm run demo // 运行vue应用（demo文件夹）
 ```
