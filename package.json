@@ -1,8 +1,13 @@
 {
-  "name": "w5v3",
+  "name": "jsLibraryDemo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/jsLibraryDemo.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "private": false,
   "scripts": {
     "dist": "webpack --config config/webpack.dist.js",
     "demo": "webpack serve --host local-ip --config config/webpack.demo.js",

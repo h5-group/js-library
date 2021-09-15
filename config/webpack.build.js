@@ -9,11 +9,11 @@ module.exports = merge(common, {
   mode: 'production',
   entry: './src/index.js',
   output: {
-    filename: 'xfzhUtils.js',
+    filename: 'jsLibraryDemo.js',
     path: path.resolve(__dirname, '../dist'),
     clean: true,
     library: {
-      name: 'xfzhUtils',
+      name: 'jsLibraryDemo',
       type: 'umd',
     },
   },
