@@ -9,11 +9,11 @@ module.exports = merge(common, {
   mode: 'production',
   entry: './src/index.js',
   output: {
-    filename: 'jsLibraryDemo.js',
+    filename: 'js-library-example.js',
     path: path.resolve(__dirname, '../dist'),
     clean: true,
     library: {
-      name: 'jsLibraryDemo',
+      name: 'jsLibraryExample',
       type: 'umd',
     },
   },
