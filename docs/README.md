@@ -1,10 +1,15 @@
-## library-framework
+## js-library
 
 开箱即用，用于JavaScript插件开发的脚手架。
 
 ### 目录
 ```
 |-- dist                        // 产出
+|-- docs                        // 文档
+  |-- .vuepress                 // vuepress生成
+    |-- config.js               // vuepress文档配置
+  |-- README.md                 // 文档首页
+  |-- ...                       // 其他文档页面
 |-- src                         // 开发
   |-- index.js                  // 入口文件
 |-- demo                        // demo文件

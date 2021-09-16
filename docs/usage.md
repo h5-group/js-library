@@ -1,7 +1,7 @@
 ### 下载仓库
 ```
 git clone https://github.com/h5-group/js-library.git
-cd library-framework
+cd js-library
 npm install
 ```
 
