@@ -4,7 +4,7 @@
 
 ### 开始
 ```
-git clone https://git.iflyvoice.com:8868/webfront/woliuyan/library-framework.git
+git clone https://github.com/h5-group/js-library.git
 cd library-framework
 npm install
 ```
@@ -40,10 +40,10 @@ npm run build // 构建library
 - [x] babel转义
 - [x] 运行demo目录（vue单页面）
 - [x] 构建代码至dist，支持全局引入，cmd，amd，按需引入
-- [ ] 发布至npm
+- [x] 发布至npm
 - [x] 支持doc文档编辑
 
-## 文档
+## 文档相关
 
 一份文档对于一个开源库来说极为重要。
 
@@ -65,3 +65,19 @@ npm run docs:build // 构建doc
 请参考[vuepress-部署](https://vuepress.vuejs.org/zh/guide/deploy.html#%E4%BA%91%E5%BC%80%E5%8F%91-cloudbase)。
 
 这个仓库文档部署在GitHub Pages，可参考[GitHub Pages](https://vuepress.vuejs.org/zh/guide/deploy.html#github-pages)自行修改。
+
+
+### 发布npm
+```
+npm login // 登录npm
+npm version prerelease // package.json 中的版本号1.0.0变为 1.0.1-0
+npm publish
+```
+
+关于 `npm version` 的使用
+```
+npm version prerelease // package.json 中的版本号1.0.0变为 1.0.1-0 或者 1.0.1-0变为1.0.1-1 一般是指修复版本
+npm version prepatch // package.json 中的版本号1.0.1-1变为 1.0.2-0 一般是指需求版本
+npm version preminor // package.json 中的版本号1.0.2-0变为 1.1.0-0 一般是指功能版本
+npm version premajor // package.json 中的版本号1.1.0-0变为 2.0.0-0 一般是指改版
+```
