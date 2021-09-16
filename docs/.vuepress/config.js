@@ -1,11 +1,11 @@
 module.exports = {
   base: '/js-library/',
   lang: 'zh-CN',
-  title: 'library-framework',
+  title: 'js-library',
   description: '你的介绍',
 
   themeConfig: {
-    logo: 'https://vuejs.org/images/logo.png',
+    logo: '/images/logo.jpg',
     sidebar: [
       // SidebarItem
       {
