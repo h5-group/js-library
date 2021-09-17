@@ -7,7 +7,7 @@ module.exports = merge(dist, {
   devServer: {
     static: './demo/dist',
     compress: true,
-    port: 8090,
+    port: 'auto',
     open: true,
     hot: true,
     historyApiFallback: true,

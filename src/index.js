@@ -3,6 +3,10 @@ const hello = (name) => {
   window.console.info(`hello ${name}`);
 }
 
-module.exports = {
+export {
+  hello,
+}
+
+export default {
   hello,
 }

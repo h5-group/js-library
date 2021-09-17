@@ -1,4 +1,7 @@
 import logo from '@/images/logo.png';
+import {
+  hello
+} from '../../../src';
 export default {
   name: 'home',
   setup() {
@@ -12,5 +15,6 @@ export default {
   },
   mounted() {
     console.log('home page');
+    hello('jane')
   }
 }
