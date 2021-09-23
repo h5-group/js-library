@@ -2,6 +2,9 @@ module.exports = {
   mode: 'development',
   devtool: 'source-map',
   stats: 'minimal',
+  ignoreWarnings: [{
+    module: /(node_modules|bower_components)/,
+  }, ],
   module: {
     rules: [{
       test: /\.m?js$/,

@@ -12,4 +12,12 @@ module.exports = merge(dist, {
     hot: true,
     historyApiFallback: true,
   },
+  client: {
+    overlay: {
+      // 把编译的错误显示在浏览器上
+      errors: true,
+      warnings: false,
+    },
+    progress: true,
+  }
 });
